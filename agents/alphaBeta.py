@@ -6,15 +6,15 @@ from copy import deepcopy
 import time
 from helpers import random_move, execute_move, check_endgame, get_valid_moves, count_disc_count_change
 
-@register_agent("student_agent")
-class StudentAgent(Agent):
+@register_agent("alpha_beta")
+class AlphaBeta(Agent):
     """
     A simple agent using minimax with alpha-beta pruning.
     """
     
     def __init__(self):
-        super(StudentAgent, self).__init__()
-        self.name = "StudentAgent"
+        super(AlphaBeta, self).__init__()
+        self.name = "AlphaBeta"
         self.time_limit = 1.9  # Stay under 2 second limit
         self.my_player = None
     
