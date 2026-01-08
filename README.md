@@ -1,7 +1,5 @@
 # Ataxx!
 
-**Project Description & Template** : https://www.overleaf.com/read/khdfckprxqtn#a952b1
-
 ## Setup
 To setup your Python environment, we highly suggest using virtualenv to keep your dependencies in order. Run:
 ```bash
